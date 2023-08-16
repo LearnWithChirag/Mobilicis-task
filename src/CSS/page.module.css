@@ -1,0 +1,535 @@
+
+/* Left Side Bar Start */
+.leftSide{
+  height: 157vh;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem ;
+  box-shadow:  0 0 .5rem  #CECECE;
+  border-right: .1rem solid #CECECE;
+
+}
+
+.head_leftSide {
+  font-size: 2.5rem;
+  font-weight: 500;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  color: rgba(34, 34, 34, 0.90);
+  border: .1rem solid rgba(0, 0, 0, 0.15);
+  padding: 0rem 3rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.15);
+}
+
+.content_leftSide{
+  display: flex;
+  flex-direction: column;
+  height: 140vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn_leftSide{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* height: 60vh; */
+  gap: 3rem;
+  padding: 4rem 0;
+}
+
+.btn_leftSide button{
+  font-size: 2rem;
+  border-radius: .5rem;
+  border: none;
+  color:  #1A1558;
+  padding: 1rem 2rem;
+  border: .2rem solid #1A1558;
+}
+
+.logOut{
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+/* Left Side Bar End */
+
+/* Right Side Start */
+
+.rightSide{
+  height: 100vh;
+  width: 80%;
+  background-color: #FAFBFF;
+}
+/* Head Portion Start */
+.headPortion{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 2rem 8rem;
+  /* margin-right: 4rem; */
+  background-color: white;
+  border-bottom: .1rem solid #CECECE;
+}
+
+.notificationIcon{
+  margin-right: 2rem;
+}
+
+.headProfile{
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  border: .1rem solid rgba(0, 0, 0, 0.15);
+  justify-content: space-between;
+  padding: .5rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.15);
+}
+
+.headProfileContent{
+  display: flex;
+}
+
+.headProfileContent Img{
+  background-color: #FFA78D;
+  border-radius: .5rem;
+  margin-right: 1rem;
+}
+
+  /* Head Portion End */
+
+  /* Profile Background Blue Start */
+
+.profileContainer{
+  padding: 4rem 0;
+  height: 138vh;
+}
+
+.profileBackground{
+  width: 90%;
+  height: 30vh;
+  background-color: #1E2875;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: white;
+}
+/* Main Profile Container */
+.profileContent{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7rem;
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  height: 120vh;
+  width: 95%;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  box-shadow: 0 0 .5rem black;
+}
+
+/* Left Part Start */
+.leftContent{
+  width: 40%;
+}
+
+  /* Profile Image */
+.profileImage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 40rem; */
+  /* background-color: red; */
+}
+
+.profileImage input{
+  width: 12rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  /* height: 2rem; */
+}
+  /* Profile Image End */
+
+
+  /* User Detail Box Start */
+
+.userDetail{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  padding: 2rem;
+  gap: 1rem;
+  /* background-color: red; */
+  border:.2rem solid rgba(0, 0, 0, 0.15);
+  border-radius: .5rem;
+  color: black;
+}
+
+.userDetail label  {
+  font-size: 1.5rem;
+  color: rgba(31, 31, 31, 0.7);
+}
+
+.userDetail span{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.userDetail span > input{
+  padding: .5rem 2rem;
+  border: none;
+  border-radius: 2rem;
+
+}
+
+  /* User Detail Box End */
+
+  /* User Info Box Start */
+
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  padding: 2rem;
+  gap: 1rem;
+  /* font-size: 2rem; */
+  /* background-color: red; */
+  border:.2rem solid rgba(0, 0, 0, 0.15);
+  border-radius: .5rem;
+  color: black;
+  width: 100%;
+}
+.userHead{
+  display: flex;
+  width: 100%;
+  gap: .5rem;
+  font-size: 2rem;
+}
+.userHead h3{
+  font-size: 2rem;
+  color: #222222E5;
+}
+
+.userHead span > p{
+  color: #413B89;
+
+}
+.userHead span{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 100%;
+}
+.userHead span > input{
+  padding: .5rem 2rem;
+  border: none;
+  border-radius: 2rem;
+
+}
+
+.userBio{
+  font-size: 1.3rem;
+  color: #49454FCC;
+}
+  /* User Info Box End */
+
+  /* User Skills Section Start */
+
+.userSkills{
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 0;
+  padding: 2rem;
+  gap: 1rem;
+  height: 15rem;
+  /* font-size: 2rem; */
+  /* background-color: red; */
+  border:.2rem solid rgba(0, 0, 0, 0.15);
+  border-radius: .5rem;
+  color: black;
+  width: 100%;
+}
+
+.userSkillHead{
+  display: flex;
+  justify-content: space-between;
+}
+.userSkillHead h3{
+  font-size: 2rem;
+  color: #222222e5;
+}
+.userSkillHead input{
+  padding: .5rem 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+.skillValue{
+  display: grid;
+  color: #222222E5;
+  grid-template-columns: auto auto;
+  font-size: 1.5rem;
+}
+  /* User Skills Section End */
+
+
+/* Right Container Start */
+.rightContent{
+  width: 40%;
+}
+
+/* Professional Details Start */
+.profContainer{
+  display: flex;
+  margin: .5rem 0;
+  padding: 1rem 1.5rem;
+  justify-content: space-evenly;
+  border:.2rem solid rgba(0, 0, 0, 0.15);
+  border-radius: .5rem;
+  color: black;
+  width: 100%;
+}
+
+.profDetails {
+  display: flex;
+  font-size: 1.8rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+.profDetails h5{
+  color: #222222e5;
+}
+
+.profDetails p{
+  font-size: 1.4rem;
+  color: #49454FCC;
+}
+/* Professional Details End */
+
+/* Certifiacation Container start */
+
+.certfContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  color: black;
+}
+.certfHead{
+  display: flex;
+  width: 100%;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  color: #222222E5;
+}
+
+.certfHead input{
+  padding: .5rem 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.certfContent{
+  display: flex;
+  margin: 1.5rem 0;
+  padding: 1rem 2.5rem;
+  /* justify-content:flex-start; */
+  gap: 5rem;
+  align-items: center;
+  border:.2rem solid rgba(0, 0, 0, 0.15);
+  border-radius: 5rem;
+  width: 100%;
+}
+.certfName{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  color: #49454FCC;
+  /* justify-content: center  ; */
+}
+/* Certifiacation Container End */
+
+/* Experience Container Start */
+
+.expContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  /* padding: 1rem; */
+  width: 100%;
+  color: black;
+}
+.expHead{
+  display: flex;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  color: #222222E5;
+}
+.expHead input{
+  padding: .5rem 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+.expContent{
+  display: flex;
+  margin: .5rem 0;
+  padding: 1rem .5rem;
+  justify-content:space-around;
+  /* gap: 5rem; */
+  align-items: center;
+  border:.2rem solid rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  width: 100%;
+}
+.expName{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eduContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  /* padding: 1rem; */
+  width: 100%;
+  color: black;
+}
+.eduHead{
+  display: flex;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  color: #222222E5;
+}
+.eduHead input{
+  padding: .5rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.eduContent{
+  display: flex;
+  flex-direction: column;
+  margin: .5rem 0;
+  padding: 2rem 2rem;
+  /* justify-content:space-around; */
+  gap: 1rem;
+  /* align-items: center; */
+  border:.2rem solid rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.eduContent h3{
+  color: #413B89;
+  font-size: 2rem;
+}
+.eduContent > span{
+  display: flex;
+  width: 90%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  justify-content: space-between;
+}
+
+.eduContent > p{
+  font-size: 1.5rem;
+  color: #49454FCC;
+}
+
+/* Connection Section Start */
+
+.connectionContainer{
+  /* display: none; */
+  padding: 4rem 2rem;
+  height: 138vh;
+}
+
+.connBackground{
+  width: 90%;
+  height: 12vh;
+  background-color: #1E2875;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+}
+.connContent{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  width: 90%;
+  border-radius: 2rem;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 0 .5rem black;
+}
+.myConnection{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  height: 50vh;
+}
+.connCard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 30%;
+  border: .1rem solid #00000026;
+  height: max-content;
+  border-radius: 1rem;
+}
+.cardContent{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+.cardContent h3{
+  color: #222222E5;
+}
+.cardContent input{
+  border: none;
+  border-radius: 2.5rem;
+  padding: .2rem 1rem;
+  background-color: #BAB6EB;
+  cursor: pointer;
+}
+
+/* People you may know */
+
+.newConnect{
+margin-top: 5rem;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+.newConnHead{
+  color: #222222E5;
+  font-size: 2.5rem;
+}
+
+/* Connection Section End */
